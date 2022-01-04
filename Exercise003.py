@@ -1,4 +1,4 @@
-# 03. "shoe" + "cold" = "schooled"
+# 003. "shoe" + "cold" = "schooled"
 # Obtain the string "schooled" by concatenating the letters in "shoe" and "cold" one after the other from head to tail.
 s1 = 'shoe'
 s2 = 'cold'
