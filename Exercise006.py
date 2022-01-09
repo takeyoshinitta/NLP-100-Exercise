@@ -1,7 +1,7 @@
 # 006. n-gram
 # Implement a function that obtains n-grams from a given sequence object (e.g., string and list). Use this function to obtain word bi-grams and letter bi-grams from the sentence "I am an NLPer"
 
-def n_gram(n, list):
+def bi_gram(n, list):
     newList = []
     for i in range(n - 1):
         if(list[i] + ', ' + list[i+1] in newList):
@@ -12,8 +12,8 @@ def n_gram(n, list):
 
 s = 'I am an NLPer'
 
-sList = s.split(' ')
-print('Word Bi-gram: ' + str(n_gram(len(sList), sList)))
+wordList = s.split(' ')
+print('Word Bi-gram: ' + str(bi_gram(len(wordList), wordList)))
 
-sList = list(s)
-print('Letter Bi-gram: ' + str(n_gram(len(sList), sList)))
+letterList = list(s)
+print('Letter Bi-gram: ' + str(bi_gram(len(letterList), letterList)))
