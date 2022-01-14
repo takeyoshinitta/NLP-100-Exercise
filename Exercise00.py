@@ -1,4 +1,4 @@
-# 001. Reversed String
+# 00. Reversed String
 # Obtain the string that arranges letters of the string "stressed" in reverse order (tail to head) 
 str = 'stressed'
 strList = list(str)
