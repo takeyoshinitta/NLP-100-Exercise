@@ -1,4 +1,4 @@
-# 007. Set
+# 06. Set
 # Let the sets of letter bi-grams from the words "paraparaparadise" and "paragraph" X and Y, respectively. Obtain the union, intersection, difference of the two sets. In addition, check whether the bigram "se" is included in the sets X and Y
 
 def bi_gram(n, list):
