@@ -1,5 +1,0 @@
-# command line
-[Folder where the file resides] % !wc -l popular-names.txt 
-
-# output
-   2780 popular-names.txt
