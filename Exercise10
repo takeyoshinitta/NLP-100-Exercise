@@ -1,0 +1,2 @@
+wc -l popular-names.txt 
+   2780 popular-names.txt
