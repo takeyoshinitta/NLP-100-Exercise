@@ -1,5 +1,7 @@
-# command line
+# in windowsOS
 [Folder where the file resides] > gc .\popular-names.txt | %{$_ -replace "[\t]", " "}
+# in MacOS
+[Folder where the file resides] % sed -e 's/\t/ /g' ./popular-names.txt
 
 # output
 Mary F 7065 1880
