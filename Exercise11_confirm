@@ -1,0 +1,1 @@
+gc .\popular-names.txt | %{$_ -replace "[\t]", " "}
