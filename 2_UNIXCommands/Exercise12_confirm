@@ -1,1 +1,4 @@
-
+# in windows
+[Folder where the file resides] > gc ".\popular-names.txt" | Select-Object {$($_-split("\t"))[0]}
+# in MacOS
+[Folder where the file resides] % cat popular-names.txt | cut -f 1 -d "\t"
