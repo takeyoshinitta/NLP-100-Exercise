@@ -3,7 +3,7 @@
 or 
 [Folder where the file resides] > gc ".\popular-names.txt" | Select-Object {$($_-split("\t"))[1]}
 
-# in MacOS
+# in MacOS (UNIX commands)
 [Folder where the file resides] % cut -f1 -d$'\t' popular-names.txt
 or 
 [Folder where the file resides] % cut -f2 -d$'\t' popular-names.txt
