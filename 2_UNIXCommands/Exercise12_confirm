@@ -1,4 +1,9 @@
 # in windows
 [Folder where the file resides] > gc ".\popular-names.txt" | Select-Object {$($_-split("\t"))[0]}
+or 
+[Folder where the file resides] > gc ".\popular-names.txt" | Select-Object {$($_-split("\t"))[1]}
+
 # in MacOS
-[Folder where the file resides] % cat popular-names.txt | cut -f 1 -d "\t"
+[Folder where the file resides] % cut -f1 -d$'\t' popular-names.txt
+or 
+[Folder where the file resides] % cut -f2 -d$'\t' popular-names.txt
