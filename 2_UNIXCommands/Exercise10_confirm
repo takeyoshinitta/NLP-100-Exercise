@@ -1,4 +1,4 @@
-# command line
+# in MacOS (UNIX Commands)
 [Folder where the file resides] % wc -l popular-names.txt 
 
 # output
