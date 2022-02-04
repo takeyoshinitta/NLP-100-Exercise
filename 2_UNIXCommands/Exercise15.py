@@ -3,7 +3,7 @@
 from sys import argv
 
 n = 0;
-if (argv[1].isdigit()):
+if (len(argv) > 1 & argv[1].isdigit()):
     n = int(argv[1])
     with open('popular-names.txt') as f:
         line = f.readlines()
