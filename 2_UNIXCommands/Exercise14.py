@@ -9,6 +9,7 @@ if (len(argv) > 1 & argv[1].isdigit()):
         line = f.readlines()
         for i in range(0, int(n)):
             print(line[i].rstrip())
+        f.close()
 
 else:
     print("type appropriate number")

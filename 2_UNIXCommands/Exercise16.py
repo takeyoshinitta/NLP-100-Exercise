@@ -14,6 +14,8 @@ if (len(argv) > 1 & argv[1].isdigit()):
                 for k in range(int(outLinesNum)):
                     wf.write(lines[i])
                     i = i + 1
+                wf.close()
+        f.close()
 
 else:
     print("type appropriate number")
