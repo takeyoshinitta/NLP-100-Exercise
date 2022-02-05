@@ -2,7 +2,7 @@
 # Receive a natural number $N$ from a command-line argument, and split the input file into $N$ pieces at line boundaries. Confirm the result by using split command.
 from sys import argv
 
-if (len(argv) > 1 & argv[1].isdigit()):
+if (len(argv) > 1 and argv[1].isdigit()):
     n = int(argv[1])
     with open('popular-names.txt') as f:
         lines = f.readlines()
