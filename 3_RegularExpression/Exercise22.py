@@ -17,3 +17,5 @@ with gzip.open('enwiki-country.json.gz') as data_file:
             # print (i[11:-2])
             print(i.replace('[', '').replace(']', '').replace(':', '').replace('Category', '').replace('|', ''))
     
+    data_file.close()
+    
