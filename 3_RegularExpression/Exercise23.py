@@ -15,8 +15,6 @@ with gzip.open('enwiki-country.json.gz') as data_file:
     for i in lines:
         if re.match(r'^=+.+=+$', i):
             s = re.match(r'^(=+)(.+?)=+$', i)
-            print (f'name: {format(s.group(2))}')
-            print (f'level: {len(s.group(1)) - 1}')
-            print ('\n')
+            print (f'name: {format(s.group(2))} \t level: {len(s.group(1)) - 1}')
 
     data_file.close()
